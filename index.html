@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect With Me</title>
+    <title>Jonny Davison - Hive Key Property</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #141517; /* Even richer, deeper graphite black */
+            background-color: #111111; /* Clean deep black background */
             color: #E5E5E5;
             display: flex;
             flex-direction: column;
@@ -16,7 +16,6 @@
             padding: 40px 20px;
             margin: 0;
             min-height: 90vh;
-            /* Smooth page fade-in animation */
             animation: fadeIn 0.8s ease-out;
         }
 
@@ -26,121 +25,95 @@
         }
 
         .container {
-            max-width: 360px; /* Slimmer layout looks sharper on mobile */
+            max-width: 360px;
             width: 100%;
             text-align: center;
         }
 
-        /* Premium Logo Styling */
+        /* Logo Layout Styling */
         .logo {
-            width: 150px;
-            height: 150px;
+            width: 240px;
+            height: 240px;
             object-fit: contain;
-            margin-bottom: 20px;
-            filter: drop-shadow(0px 4px 10px rgba(212, 175, 55, 0.15)); /* Soft gold under-glow */
+            margin-bottom: 10px;
+            border-radius: 16px; /* Smooth card corners for the logo badge */
         }
 
+        /* Gold Name Header */
         h1 { 
-            margin: 0 0 8px 0; 
-            font-size: 26px; 
-            font-weight: 400; /* Cleaner, thinner premium font weight */
-            color: #FFFFFF;
-            letter-spacing: 1px;
-            text-transform: uppercase; /* Editorial/Luxury look */
-            font-size: 20px;
+            margin: 15px 0 4px 0; 
+            font-weight: 700; 
+            color: #D4AF37; /* Crisp brand gold */
+            font-size: 28px;
+            letter-spacing: 0.3px;
         }
 
-        h1 .name {
-            font-weight: 600;
-            display: block;
-            font-size: 24px;
-            text-transform: none;
-            letter-spacing: 0px;
-            margin-top: 4px;
-        }
-
-        p { 
+        /* Company Label Subtitle */
+        .subtitle { 
             color: #8E8E93; 
-            margin-bottom: 40px; 
-            font-size: 14px; 
-            letter-spacing: 0.3px;
-            line-height: 1.5;
+            margin-bottom: 30px; 
+            font-size: 16px; 
+            font-weight: 400;
         }
 
-        /* Base Button Styles */
-        .btn {
+        /* --- VERTICAL GOLD BUTTONS --- */
+        .button-container {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 12px;
-            background-color: #1F2023; /* Dark graphite tile */
-            color: #E5E5E5;
+            flex-direction: column;
+            gap: 14px;
+            width: 100%;
+        }
+
+        /* Precise Match for the Gold Buttons in Screenshot */
+        .btn-gold {
+            display: block;
+            background-color: #D4AF37; /* Premium Solid Gold */
+            color: #111111; /* Solid dark text contrast */
             text-decoration: none;
-            padding: 16px;
-            margin-bottom: 16px;
-            border-radius: 12px; /* Smoother modern corners */
-            font-weight: 500;
-            font-size: 15px;
-            letter-spacing: 0.3px;
-            border: 1px solid rgba(255, 255, 255, 0.04);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .btn:hover {
-            transform: translateY(-2px);
-            background-color: #26272B;
-            border-color: rgba(212, 175, 55, 0.4); /* Elegant gold border accent on hover */
-            color: #FFFFFF;
-            box-shadow: 0 6px 20px rgba(212, 175, 55, 0.05);
-        }
-
-        /* Luxury Matte Gold Primary Button */
-        .btn-primary {
-            background: linear-gradient(135deg, #D4AF37 0%, #AA820A 100%); /* Subtle gold gradient */
-            color: #141517; 
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-size: 16px;
             font-weight: 600;
             border: none;
-            box-shadow: 0 4px 15px rgba(212, 175, 55, 0.2);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.2s ease-in-out;
+            box-sizing: border-box;
         }
 
-        .btn-primary:hover {
-            background: linear-gradient(135deg, #E5C158 0%, #C29618 100%);
-            color: #141517;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 22px rgba(212, 175, 55, 0.35);
-        }
-
-        /* Custom SVG Icon Alignment */
-        .btn svg {
-            width: 18px;
-            height: 18px;
-            fill: currentColor;
+        .btn-gold:hover {
+            transform: translateY(-1px);
+            background-color: #E5C158; /* Subtle highlight brightness on interaction */
+            box-shadow: 0 6px 14px rgba(212, 175, 55, 0.15);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <img src="archway group 1.jpeg" alt="Logo" class="logo">
+        <img src="archway group 1.jpeg" alt="Hive Key Property Logo" class="logo">
         
-        <h1><span class="name">Jonny Davison</span></h1>
-        <p>Strategic Partnerships & Innovation</p>
+        <h1>Jonny Davison</h1>
+        <div class="subtitle">Hivekey Property</div>
 
-       <a href="https://calendar.app.google/LeeqBfNVmT1jcbbe6" target="_blank">Schedule a Call</a>
-           
-            Book a Discovery Call
-        </a>
-
-        <a href="https://linkedin.com/in/jonny-davison-0b5ab7129" target="_blank">View LinkedIn</a>
+        <div class="button-container">
             
-            Connect on LinkedIn
-        </a>
-
-      <a href="mailto:jonnydavison.archway@gmai.com">Contact Me</a>
+            <a href="https://calendar.app.google/LeeqBfNVmT1jcbbe6" class="btn-gold" target="_blank">
+                Schedule a Call
+            </a>
             
-            Email Me
-        </a>
+            <a href="https://calendar.app.google/LeeqBfNVmT1jcbbe6" class="btn-gold" target="_blank">
+                Join Our Investor Network
+            </a>
+            
+            <a href="https://linkedin.com/in/jonny-davison-0b5ab7129" class="btn-gold" target="_blank">
+                View LinkedIn
+            </a>
+            
+            <a href="mailto:jonnydavison.archway@gmai.com?subject=Inquiry" class="btn-gold">
+                Contact Me
+            </a>
+            
+        </div>
     </div>
 
 </body>
